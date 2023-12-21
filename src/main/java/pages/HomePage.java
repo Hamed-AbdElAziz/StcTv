@@ -18,6 +18,9 @@ public class HomePage extends Base {
     private By classicPrice[] = {By.xpath("//div[@id='currency-classic']/b"),By.xpath("//div[@id='currency-الأساسية']/b")};
     private By premiumPrice[] = {By.xpath("//div[@id='currency-premium']/b"),By.xpath("//div[@id='currency-بريميوم']/b")};
     private By deviceAccessClassic = By.xpath("(//div[contains(@class,'classic')])[6]");
+    private By liteTrialBtn[] ={By.id("lite-selection"),By.id("لايت-selection")};
+    private By classicTrialBtn[]={By.id("classic-selection"),By.id("الأساسية-selection")};
+    private By premiumTrialBtn[]={By.id("premium-selection"),By.id("بريميوم-selection")};
 
 
 
@@ -32,7 +35,9 @@ public class HomePage extends Base {
     public void clickOnKsaCard() {WebDriverHandler.getWebDriver().findElement(ksaWrapperCard).click();}
     public void clickOnBahrainCard() {WebDriverHandler.getWebDriver().findElement(bahrainWrapperCard).click();}
     public void clickOnKuwaitCard() {WebDriverHandler.getWebDriver().findElement(kuwaitWrapperCard).click();}
-
+    public void clickOnLiteTrialBtn() {WebDriverHandler.getWebDriver().findElement(liteTrialBtn[utilities.langIndex]).click();}
+    public void clickOnClassicTrialBtn() {WebDriverHandler.getWebDriver().findElement(classicTrialBtn[utilities.langIndex]).click();}
+    public void clickOnPremiumTrialBtn() {WebDriverHandler.getWebDriver().findElement(premiumTrialBtn[utilities.langIndex]).click();}
 
 
 
