@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StcTv">
+    <test name="Subscription packages">
+        <classes>
+            <class name="StcTv_taf.tests.HooksHandler"/>
+            <class name="StcTv_taf.TestRunner"/>
+        </classes>
+    </test>
+</suite>

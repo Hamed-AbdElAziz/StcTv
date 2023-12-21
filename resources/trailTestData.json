@@ -1,0 +1,50 @@
+{
+  "KSA": {
+    "En": {
+      "name": "KSA",
+      "currency": "SAR",
+      "priceLite": "15",
+      "priceClassic": "25",
+      "pricePremium": "60"
+    },
+    "Ar": {
+      "name": "السعودية",
+      "currency": "ريال سعودي",
+      "priceLite": "15",
+      "priceClassic": "25",
+      "pricePremium": "60"
+    }
+  },
+  "KW": {
+    "En": {
+      "name": "Kuwait",
+      "currency": "KWD",
+      "priceLite": "1.2",
+      "priceClassic": "2.5",
+      "pricePremium": "4.8"
+    },
+    "Ar": {
+      "name": "الكويت",
+      "currency": "دينار كويتي",
+      "priceLite": "1.2",
+      "priceClassic": "2.5",
+      "pricePremium": "4.8"
+    }
+  },
+  "BH": {
+    "En": {
+      "name": "Bahrain",
+      "currency": "BHD",
+      "priceLite": "2",
+      "priceClassic": "3",
+      "pricePremium": "6"
+    },
+    "Ar": {
+      "name": "البحرين",
+      "currency": "دينار بحريني",
+      "priceLite": "2",
+      "priceClassic": "3",
+      "pricePremium": "6"
+    }
+  }
+}
