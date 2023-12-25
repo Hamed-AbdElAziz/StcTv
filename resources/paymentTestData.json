@@ -1,0 +1,122 @@
+{
+  "KSA": {
+    "En": {
+      "Lite": {
+        "stcPrice": "15.00",
+        "visaPrice": "20.00"
+      },
+      "Classic": {
+        "stcPrice": "25.00",
+        "visaPrice": "40.00"
+      },
+      "Premium": {
+        "stcPrice": "60.00",
+        "visaPrice": "60.00"
+      },
+      "name": "KSA",
+      "currency": "SAR",
+      "stcCurrency": "SAR",
+      "visaCurrency": "SAR"
+    },
+    "Ar": {
+     "Lite": {
+        "stcPrice": "15.00",
+        "visaPrice": "20.00"
+     },
+      "Classic": {
+        "stcPrice": "25.00",
+        "visaPrice": "40.00"
+      },
+      "Premium": {
+        "stcPrice": "60.00",
+        "visaPrice": "60.00"
+      },
+      "name": "السعودية",
+      "currency": "ريال سعودي",
+      "stcCurrency": "ريال سعودي",
+      "visaCurrency": "ريال سعودي"
+    },
+    "stcValue": "STC",
+    "visaValue": "CC_KSA"
+  },
+  "KW": {
+    "En": {
+      "Lite": {
+        "stcPrice": "1.20",
+        "visaPrice": "4.80"
+      },
+      "Classic": {
+        "stcPrice": "2.50",
+        "visaPrice": "9.60"
+      },
+      "Premium": {
+        "stcPrice": "4.80",
+        "visaPrice": "14.40"
+      },
+      "name": "Kuwait",
+      "currency": "KWD",
+      "stcCurrency": "KWD",
+      "visaCurrency": "USD"
+    },
+    "Ar": {
+      "Lite": {
+        "stcPrice": "1.20",
+        "visaPrice":"4.80"
+      },
+      "Classic": {
+        "stcPrice": "2.50",
+        "visaPrice": "9.60"
+      },
+      "Premium": {
+        "stcPrice": "4.80",
+        "visaPrice": "14.40"
+      },
+      "name": "الكويت",
+      "currency": "دينار كويتي",
+      "stcCurrency": "دينار كويتي",
+      "visaCurrency": "دولار أمريكي"
+    },
+    "stcValue": "KV",
+    "visaValue": "CC_KW"
+  },
+  "BH": {
+    "En": {
+      "Lite": {
+        "stcPrice": "2.00",
+        "visaPrice": "4.80"
+      },
+      "Classic": {
+        "stcPrice": "3.00",
+        "visaPrice": "9.60"
+      },
+      "Premium": {
+        "stcPrice": "6.00",
+        "visaPrice": "14.40"
+      },
+      "name": "Bahrain",
+      "currency": "BHD",
+      "stcCurrency": "BHD",
+      "visaCurrency": "USD"
+    },
+    "Ar": {
+      "Lite": {
+        "stcPrice": "2.00",
+        "visaPrice": "4.80"
+      },
+      "Classic": {
+        "stcPrice": "3.00",
+        "visaPrice": "9.60"
+      },
+      "Premium": {
+        "stcPrice": "6.00",
+        "visaPrice": "14.40"
+      },
+      "name": "البحرين",
+      "currency": "دينار بحريني",
+      "stcCurrency": "دينار بحريني",
+      "visaCurrency": "دولار أمريكي"
+    },
+    "stcValue": "VB",
+    "visaValue": "CC_BRN"
+  }
+}

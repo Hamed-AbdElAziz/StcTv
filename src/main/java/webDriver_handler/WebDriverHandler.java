@@ -10,7 +10,7 @@ public class WebDriverHandler {
 
    public WebDriverHandler() {
        FirefoxOptions options = new FirefoxOptions();
-        options.addArguments("--headless");
+       options.addArguments("--headless");
        webDriver = new FirefoxDriver(options);
     }
 

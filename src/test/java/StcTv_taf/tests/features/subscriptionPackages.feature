@@ -1,4 +1,4 @@
-Feature: Validate Subscription Planes
+Feature: Validate Subscription Plans
 
   Scenario Outline: Validate subscription packages price and currency with preferred language for all countries
     Given user is redirected to StcTv home page

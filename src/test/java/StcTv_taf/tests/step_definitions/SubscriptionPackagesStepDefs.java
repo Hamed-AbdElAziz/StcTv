@@ -29,6 +29,11 @@ public class SubscriptionPackagesStepDefs extends Base {
         System.out.println("countryName: " + browser.homePage.getCountryName().getText());
     }
 
+    @When("click on start your trial button for {string} package")
+    public void clickOnStartYourTrialButtonForPackage(String packageName) {
+        utilities.planPaymentSelect(packageName);
+    }
+
     @Then("should see lite plan price and country currency with selected {string}")
     public void shouldSeeLitePlanPriceAndCountryCurrencyWithSelected(String language){
         Assert.assertEquals(utilities.getExpectedLitePrice() , browser.homePage.getLitePrice().getText());
